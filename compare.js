@@ -1,6 +1,6 @@
 export function kopar(usernum, randnum)
 {
-    if(usernum<randnum) return "Kisebb"
-    else if(usernum>randnum) return "nagyobb"
-    else if (usernum==randnum) return "helyes megfejtes"
+    if(usernum<randnum) return "A te számod kisebb."
+    else if(usernum>randnum) return "A te számod nagyobb"
+    else if (usernum==randnum) return "Helyes megfejtés!"
 }
