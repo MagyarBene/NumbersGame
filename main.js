@@ -64,4 +64,5 @@ function newgame()
     randNr = genRandNumb(1,100)
     lives=5
     ujraG.innerHTML=""
+    document.getElementById("output").textContent=""
 }
